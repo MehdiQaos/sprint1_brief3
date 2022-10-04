@@ -117,6 +117,10 @@ section > p {
         flex-direction: row;
     }
 
+    header > ul {
+        padding: 5%;
+    }
+
     .videos > div {
         width: 23%;
     }
