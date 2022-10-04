@@ -36,7 +36,7 @@ a:hover {
 }
 
 nav {
-    margin-top: 10vh;
+    margin-top: 15vh;
 }
 
 nav > ul {
@@ -94,10 +94,6 @@ section > p {
 /* pour les tablettes */
 @media only screen and (min-width: 600px) {
 
-    nav {
-        margin-top: 7vh;
-    }
-
     .videos {
         flex-direction: row;
         flex-wrap: wrap;
@@ -112,6 +108,10 @@ section > p {
 
 /* pour les aurdinateurs */
 @media only screen and (min-width: 1000px) {
+
+    nav {
+        margin-top: 7vh;
+    }
 
     header {
         flex-direction: row;
